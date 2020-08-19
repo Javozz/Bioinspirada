@@ -10,9 +10,6 @@ import csv
 
 num_centroildes=10
 I = Image.open("image/imagen_1.bmp")
-#size = 50,50
-#I .thumbnail(size, Image.ANTIALIAS)
-##I .save(outfile, "JPEG")
 
 plt.figure(figsize=(4,4))
 plt.imshow(I)
@@ -24,6 +21,7 @@ I2 = np.asarray(I1,dtype=np.float)
 plt.imshow(I2,cmap='gray')
 plt.axis('off')
 #plt.show()
+
 ##Preparamos la matriz para aplicar k-means.
 ##Ahora tendra tantas filas como pixeles pero solo
 
