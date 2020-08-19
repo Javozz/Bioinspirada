@@ -72,12 +72,3 @@ plt.imshow(I2_compressed,cmap='gray')
 plt.savefig('salida.png')
 plt.axis('off')
 plt.show()
-
-
-
-
-
-
-
-
-
